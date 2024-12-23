@@ -1,0 +1,78 @@
+.nav_img{
+    height: 100px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .content-box {
+    max-width: 500px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  .underline {
+    width: 150px;
+    height: 4px;
+    background-color: #007bff;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .son1{
+    width: 30%;
+    margin-left: 10px;
+
+  }
+  .son2{
+    width: 60%;
+    margin-left: 30px;
+  }
+  .hackathon_img{
+    height: 400px;
+  }
+  

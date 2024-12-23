@@ -1,0 +1,138 @@
+.home{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+.home1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0,0.6);
+    width: 100%;
+    height: 100%;
+
+}
+.home2 h1::after{
+    content: "|";
+    animation-name: Ahmed;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes Ahmed {
+    5%{content: "|";}
+    10%{content: "n|";}
+    15%{content: "ni|";}
+    20%{content: "niv|";}
+    25%{content: "nive|";}
+    30%{content: "niver|";}
+    35%{content: "nivers|";}
+    40%{content: "nivresi|";}
+    45%{content: "niversit|";}
+    50%{content: "niversity|";}
+    55%{content: "niversit|";}
+    60%{content: "niversi|";}
+    65%{content: "nivers|";}
+    70%{content: "niver|";}
+    75%{content: "nive|";}
+    80%{content: "niv|";}
+    85%{content: "ni|";}
+    90%{content: "n|";}
+    100%{content: "|";}
+    
+}
+.footer{
+    height: 50px;
+    width: 100%;
+
+}
+.img{
+    height: auto;
+}
+.card-img-top {
+    height: 400px; 
+    object-fit: cover; 
+}
+.row {
+    display: flex; 
+}
+.card {
+    height: 100%; 
+}
+.img2:hover{
+    filter: blur(10px);
+}
+.img3:hover{
+    filter: blur(10px);
+}
+.img1:hover{
+    filter: blur(10px);
+}
+.underline1:hover{
+    text-decoration: underline;
+}
+.underline2:hover{
+    text-decoration: underline;
+}
+.underline3:hover{
+    text-decoration: underline;
+}
+.text{
+    margin-top: 100px;
+}
+.img_logo{
+    height: 50px;
+}
+.profile-img1{
+    height: 350px;
+    border-radius: 50%;
+
+}
+.profile-img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+}
+.apply{
+    top: 65px;
+    margin-left: 730px;
+    z-index: 1;
+    position: absolute;
+    color: white;
+}
+.apply:hover{
+    text-decoration: underline;
+
+}
+.footer2{
+    height: 600px;
+}
+.news_img{
+    width: 500px;
+}
+.bg_event{
+    background-image: url(../img/logo.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+.bg_event1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0,0.6);
+    width: 100%;
+    height: 100%;
+  
+}
+.footer_btn{
+    width: 150px;
+}
+
+
